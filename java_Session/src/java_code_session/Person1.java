@@ -1,10 +1,10 @@
 package java_code_session;
 
-	public class Person {
+	public class Person1 {
 	    private String name;
 	    private int age;
 	    private String gender;
-	    public Person(String name, int age, String gender) { // Constructor to initialize name, age, and gender
+	    public Person1(String name, int age, String gender) { // Constructor to initialize name, age, and gender
 	        this.name = name;
 	        this.age = age;
 	        this.gender = gender;
@@ -27,7 +27,7 @@ package java_code_session;
 	    public static void main(String[] args) 
 	    {
 	    	
-	        Person person1 = new Person("dhanajayan", 31, "male");
+	        Person1 person1 = new Person1("dhanajayan", 31, "male");
 
 	        person1.displayInfo();
             person1.setAge(32);
